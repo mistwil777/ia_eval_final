@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>RAG Chatbot</h1>
+            <div class="status-indicator">
+                <span id="status-text">Initializing...</span>
+                <span id="status-dot" class="status-dot"></span>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message system">
+                <div class="message-content">
+                    <p>Welcome to the RAG Chatbot! Ask me anything about the documents in the corpus.</p>
+                    <p>Type <code>reset</code> to clear the conversation history.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <textarea id="user-input" placeholder="Type your message here..." rows="2"></textarea>
+            <button id="send-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
