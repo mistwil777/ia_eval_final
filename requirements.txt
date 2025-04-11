@@ -1,0 +1,25 @@
+# Core dependencies
+langchain>=0.0.335
+langchain-core>=0.1.23
+langchain-community>=0.0.12
+# Downgrade to older version known to work with older huggingface_hub
+sentence-transformers==2.2.2
+faiss-cpu>=1.7.4
+# Ollama client
+ollama>=0.4.7
+
+# Vector database
+chromadb>=0.4.22
+
+# Document processing
+pypdf>=3.17.1
+docx2txt>=0.8
+python-pptx>=0.6.21
+beautifulsoup4>=4.12.2
+markdown>=3.5
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.1
+numpy>=1.26.2
+pandas>=2.1.3

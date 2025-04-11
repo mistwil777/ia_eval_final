@@ -1,0 +1,204 @@
+Jump to ContentGuidesAPI ReferenceExamplesLibrariesLearnForumSupportSystem StatusContactLog InSign Up FreeLog InGuidesAPI ReferenceExamplesLibrariesAI
+
+
+Pinecone Documentation
+Get started using Pinecone, explore our examples, learn Pinecone concepts and components, and check our
+                reference documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+                What are you looking for?
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Getting Started
+Learn Pinecone basics and get up to speed quickly.
+
+Overview
+Quickstart
+Choosing index type and size
+Examples
+
+
+
+Projects
+Learn how to use projects in Pinecone.
+
+Understanding Projects
+Create a Project
+Add Users to a
+                    Project
+Change Project Pod Limit
+Rename a Project
+
+
+
+Indexes
+Learn how to use indexes in Pinecone.
+
+Understanding Indexes
+Manage Indexes
+Scale Indexes
+Back Up Indexes
+
+
+
+Records
+Learn about working with data in your Pinecone indexes.
+
+Insert Data
+Manage Data
+Query Data
+Metadata Filtering
+
+
+
+Organizations
+Understand how to administer your Pinecone organization.
+
+Understanding Organizations
+Understanding Cost
+Managing Cost
+Manage Billing
+Monitoring Your Usage
+
+
+
+Reference
+Access detailed reference information about the Pinecone API and libraries.
+
+Python Client
+Node.js Client
+Security
+Release Notes

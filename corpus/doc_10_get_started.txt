@@ -1,0 +1,17 @@
+Foundational | 🦜️🔗 Langchain
+
+
+
+
+
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OData connectionChainsHow toFoundationalLLMRouterSequentialTransformationDocumentsPopularAdditionalMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesChainsFoundationalFoundational📄️ LLMAn LLMChain is a simple chain that adds some functionality around language models. It is used widely throughout LangChain, including in other chains and agents.📄️ RouterThis notebook demonstrates how to use the RouterChain paradigm to create a chain that dynamically selects the next chain to use for a given input.📄️ SequentialThe next step after calling a language model is make a series of calls to a language model. This is particularly useful when you want to take the output from one call and use it as the input to another.📄️ TransformationThis notebook showcases using a generic transformation chain.Edit this pagePreviousSerializationNextLLMCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.
+
+
+
+
+
+
+
+
+
+Popular | 🦜️🔗 Langchain

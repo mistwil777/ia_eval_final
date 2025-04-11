@@ -1,0 +1,10 @@
+The prompt is designed to make the agent helpful and conversational.
+It uses the ReAct framework to decide which tool to use, and uses memory to remember the previous conversation interactions.Self ask with search​This agent utilizes a single tool that should be named Intermediate Answer.
+This tool should be able to lookup factual answers to questions. This agent
+is equivalent to the original self ask with search paper,
+where a Google search API was provided as the tool.ReAct document store​This agent uses the ReAct framework to interact with a docstore. Two tools must
+be provided: a Search tool and a Lookup tool (they must be named exactly as so).
+The Search tool should search for a document, while the Lookup tool should lookup
+a term in the most recently found document.
+This agent is equivalent to the
+original ReAct paper, specifically the Wikipedia example.Plan-and-execute agents​Plan and execute agents accomplish an objective by first planning what to do, then executing the sub tasks. This idea is largely inspired by BabyAGI and then the "Plan-and-Solve" paper.Edit this pagePreviousAgentsNextConversationalAction agentsZero-shot ReActStructured input ReActOpenAI FunctionsConversationalSelf ask with searchReAct document storePlan-and-execute agentsCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.

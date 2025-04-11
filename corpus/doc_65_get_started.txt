@@ -1,0 +1,7 @@
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OData connectionChainsMemoryHow-toIntegrationsAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesMemoryOn this pageMemory🚧 Docs under construction 🚧By default, Chains and Agents are stateless,
+meaning that they treat each incoming query independently (like the underlying LLMs and chat models themselves).
+In some applications, like chatbots, it is essential
+to remember previous interactions, both in the short and long-term.
+The Memory class does exactly that.LangChain provides memory components in two forms.
+First, LangChain provides helper utilities for managing and manipulating previous chat messages.
+These are designed to be modular and useful regardless of how they are used.

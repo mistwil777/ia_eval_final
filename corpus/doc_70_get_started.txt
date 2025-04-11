@@ -1,0 +1,17 @@
+Modules | 🦜️🔗 Langchain
+
+
+
+
+
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OData connectionChainsMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesOn this pageModulesLangChain provides standard, extendable interfaces and external integrations for the following modules, listed from least to most complex:Model I/O​Interface with language modelsData connection​Interface with application-specific dataChains​Construct sequences of callsAgents​Let chains choose which tools to use given high-level directivesMemory​Persist application state between runs of a chainCallbacks​Log and stream intermediate steps of any chainEdit this pagePreviousQuickstartNextModel I/OCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.
+
+
+
+
+
+
+
+
+
+Text embedding models | 🦜️🔗 Langchain

@@ -1,0 +1,29 @@
+Data connection | 🦜️🔗 Langchain
+
+
+
+
+
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OData connectionDocument loadersDocument transformersText embedding modelsVector storesRetrieversChainsMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesData connectionData connectionMany LLM applications require user-specific data that is not part of the model's training set. LangChain gives you the
+building blocks to load, transform, store and query your data via:Document loaders: Load documents from many different sourcesDocument transformers: Split documents, drop redundant documents, and moreText embedding models: Take unstructured text and turn it into a list of floating point numbersVector stores: Store and search over embedded dataRetrievers: Query your dataEdit this pagePreviousStructured output parserNextDocument loadersCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.
+
+
+
+
+
+
+
+
+
+🦜️🔗 Langchain
+
+
+
+
+
+
+
+
+
+
+DescribeIndexStats

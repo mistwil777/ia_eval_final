@@ -1,0 +1,40 @@
+upsert_response = index.upsert(
+    vectors=[
+        {'id': 'vec1',
+         'values': [0.1, 0.2, 0.3],
+         'metadata': {'genre': 'drama'},
+         'sparse_values': {
+             'indices': [10, 45, 16],
+             'values': [0.5, 0.5, 0.2]
+         }},
+        {'id': 'vec2',
+         'values': [0.2, 0.3, 0.4],
+         'metadata': {'genre': 'action'},
+         'sparse_values': {
+             'indices': [15, 40, 11],
+             'values': [0.4, 0.5, 0.2]
+         }}
+    ],
+    namespace='example-namespace'
+)
+
+Query your index for the most similar vectors.
+Find the top k most similar vectors, or query by ID.
+PythonJavaScriptcurlpinecone.create_index("example-index", dimension=128, metric="euclidean", pods=4, pod_type="s1.x1")
+await pinecone.createIndex({
+  name: "example-index",
+  dimension: 128,
+  metric: "euclidean",
+  pods: 4,
+  podType: "s1.x1",
+});
+curl -i -X POST https://controller.YOUR_ENVIRONMENT.pinecone.io/databases \
+  -H 'Api-Key: YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "name": "example-index",
+    "dimension": 128,
+    "metric": "euclidean",
+    "pods": 4,
+    "pod_type": "p1.x1"
+  }'

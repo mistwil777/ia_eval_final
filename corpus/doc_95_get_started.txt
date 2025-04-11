@@ -1,0 +1,38 @@
+Indexes
+Learn how to use indexes in Pinecone.
+
+Understanding Indexes
+Manage Indexes
+Scale Indexes
+Back Up Indexes
+
+
+
+Records
+Learn about working with data in your Pinecone indexes.
+
+Insert Data
+Manage Data
+Query Data
+Metadata Filtering
+
+
+
+Organizations
+Understand how to administer your Pinecone organization.
+
+Understanding Organizations
+Understanding Cost
+Managing Cost
+Manage Billing
+Monitoring Your Usage
+
+
+
+Reference
+Access detailed reference information about the Pinecone API and libraries.
+
+Python Client
+Node.js Client
+Security
+Release Notes

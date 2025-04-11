@@ -1,0 +1,19 @@
+// Returns:
+// {'matches': [{'id': 'C',
+//               'score': -1.76717265e-07,
+//               'values': [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3]},
+//                   {'id': 'B',
+//                    'score': 0.080000028,
+//                    'values': [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2]},
+//                   {'id': 'D',
+//                    'score': 0.0800001323,
+//                    'values': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4]}],
+// }
+curl -i -X POST https://hello-pinecone-YOUR_PROJECT.svc.YOUR_ENVIRONMENT.pinecone.io/query \
+  -H 'Api-Key: YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "vector":[0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3],
+    "topK": 3,
+    "includeValues": true
+  }'

@@ -1,0 +1,36 @@
+Prompts | 🦜️🔗 Langchain
+
+
+
+
+
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OPromptsPrompt templatesExample selectorsLanguage modelsOutput parsersData connectionChainsMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesModel I/​OPromptsPromptsThe new way of programming models is through prompts.
+A prompt refers to the input to the model.
+This input is often constructed from multiple components.
+LangChain provides several classes and functions to make constructing and working with prompts easy.Prompt templates: Parametrize model inputsExample selectors: Dynamically select examples to include in promptsEdit this pagePreviousModel I/ONextPrompt templatesCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.
+
+
+
+
+
+
+
+
+
+Model I/O | 🦜️🔗 Langchain
+
+
+
+
+
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OPromptsLanguage modelsOutput parsersData connectionChainsMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesModel I/​OModel I/OThe core element of any language model application is...the model. LangChain gives you the building blocks to interface with any language model.Prompts: Templatize, dynamically select, and manage model inputsLanguage models: Make calls to language models through common interfacesOutput parsers: Extract information from model outputsEdit this pagePreviousModulesNextPromptsCommunityDiscordTwitterGitHubPythonJS/TSMoreHomepageBlogCopyright © 2023 LangChain, Inc.
+
+
+
+
+
+
+
+
+
+Tools | 🦜️🔗 Langchain

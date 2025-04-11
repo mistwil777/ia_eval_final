@@ -1,0 +1,25 @@
+Find the top k most similar vectors, or query by ID.
+PythonJavaScriptcurlindex.query(
+  vector=[0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3],
+  top_k=3,
+  include_values=True
+)
+
+# Returns:
+# {'matches': [{'id': 'C',
+#               'score': -1.76717265e-07,
+#               'values': [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3]},
+#                   {'id': 'B',
+#                    'score': 0.080000028,
+#                    'values': [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2]},
+#                   {'id': 'D',
+#                    'score': 0.0800001323,
+#                    'values': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4]}],
+# }
+const index = pinecone.Index("example-index");
+const queryRequest = {
+  vector: [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3],
+  topK: 3,
+  includeValues: true
+};
+const queryResponse = await index.query({ queryRequest });

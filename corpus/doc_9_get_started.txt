@@ -1,0 +1,118 @@
+Get started
+Go to the quickstart guide to get a production-ready vector search service up and running in minutes.Updated about 18 hours ago Table of Contents
+Pinecone Overview
+Vector embeddings provide long-term memory for AI.
+Vector databases store and query embeddings quickly and at scale.
+Pinecone indexes store records with vector data.
+Pinecone queries are fast and fresh.
+Upsert and query vector embeddings with the Pinecone API.
+Query your index for the most similar vectors.
+Get started
+
+
+
+
+
+Documentation
+
+
+Learning Center
+
+
+Developer Forum
+
+
+Support Center
+
+
+Status Page
+
+
+Careers
+
+
+
+
+© Pinecone Systems, Inc. | San Francisco, CA | Terms | Privacy | Product Privacy | Cookies | Trust & Security | System Status
+Pinecone is a registered trademark of Pinecone Systems, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🦜️🔗 Langchain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Foundational | 🦜️🔗 Langchain

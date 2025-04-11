@@ -1,0 +1,3 @@
+Skip to main content🦜️🔗 LangChainJS/TS DocsGitHubCTRLKGet startedIntroductionInstallationQuickstartModulesModel I/​OData connectionDocument loadersDocument transformersText embedding modelsVector storesIntegrationsRetrieversChainsMemoryAgentsCallbacksModulesUse casesGuidesEcosystemAdditional resourcesAPI referenceModulesData connectionVector storesOn this pageVector storesOne of the most common ways to store and search over unstructured data is to embed it and store the resulting embedding
+vectors, and then at query time to embed the unstructured query and retrieve the embedding vectors that are
+'most similar' to the embedded query. A vector store takes care of storing embedded data and performing vector search
